@@ -1,0 +1,32 @@
+Last login: Fri Oct 18 17:43:38 on ttys000
+CJs-MacBook-Pro:~ cjgehinscott$ cd Documents
+CJs-MacBook-Pro:Documents cjgehinscott$ ls
+Charles Gehin-Scott Resume 2013X.pdf	NYCSpending
+Code for DC				RDC Connections
+IT-320					Resignation Letter.doc
+IT130-Java-Programming			WebEx
+Microsoft User Data			workspace
+CJs-MacBook-Pro:Documents cjgehinscott$ cd IT-320
+CJs-MacBook-Pro:IT-320 cjgehinscott$ ls
+Example1	HomeWork1	MidTerm		test.sml
+CJs-MacBook-Pro:IT-320 cjgehinscott$ ./test.sml
+-bash: ./test.sml: Permission denied
+CJs-MacBook-Pro:IT-320 cjgehinscott$ use "/Users/cjgehinscott/Documents/IT-320/test.sml";
+-bash: use: command not found
+CJs-MacBook-Pro:IT-320 cjgehinscott$ use"Users\\cjgehinscott\\Documents\\IT-320\\test.sml";
+-bash: useUsers\cjgehinscott\Documents\IT-320\test.sml: command not found
+CJs-MacBook-Pro:IT-320 cjgehinscott$ use"C:\\Users\cjgehinscott\Documents\IT-320\test.sml";
+-bash: useC:\Users\cjgehinscott\Documents\IT-320\test.sml: command not found
+CJs-MacBook-Pro:IT-320 cjgehinscott$ use "C:\\Users\\cjgehinscott\\Documents\\IT-320\\test.sml";
+-bash: use: command not found
+CJs-MacBook-Pro:IT-320 cjgehinscott$ use "/Users/cjgehinscott/Documents/IT-320/test.sml";
+-bash: use: command not found
+CJs-MacBook-Pro:IT-320 cjgehinscott$ cd /usr/local/smlnj/bin
+CJs-MacBook-Pro:bin cjgehinscott$ ./sml
+Standard ML of New Jersey v110.76 [built: Mon Aug 19 10:38:12 2013]
+- use "/Users/cjgehinscott/Documents/IT-320/test.sml";
+[opening /Users/cjgehinscott/Documents/IT-320/test.sml]
+val number = fn : int -> string
+val sum = fn : int * int -> int
+val it = () : unit
+- 
