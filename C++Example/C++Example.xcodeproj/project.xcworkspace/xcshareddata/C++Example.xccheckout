@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>A92475C3-E2FA-47D9-8463-A2464971B45D</string>
+	<string>02A862C2-3801-4093-AB2D-A3E0F4DCC739</string>
 	<key>IDESourceControlProjectName</key>
 	<string>C++Example</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -34,7 +34,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>100DC6D9-05E2-47B2-8B4B-F2C94B203605</string>
 			<key>IDESourceControlWCCName</key>
-			<string>IT-320</string>
+			<string>C++Example</string>
 		</dict>
 	</array>
 </dict>
