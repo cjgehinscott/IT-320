@@ -70,6 +70,7 @@ public:
             cin >> arrayX[i];
             }
         }//ends storeValuesX
+    //stores values in an array for shapes with 2 user defined parameters
     void storeValuesXY(string shapeParameter1,string shapeParameter2, string shape, int howmany){
         for(int i = 0; i<howmany; i++){
             cout << "Enter the " << shapeParameter1 << " for " << shape << " "<< i+1 << ": "<< endl;
@@ -77,7 +78,9 @@ public:
             cout << "Enter the " << shapeParameter2 << " for " << shape << " "<< i+1 << ": "<< endl;
             cin >> arrayY[i];
         }
-    }
+    }//end storeValuesXY
+    
+    //stores values in an array for shapes with 3 user defined parameters
     void storeValuesXYZ(string shapeParameter1,string shapeParameter2, string shapeParameter3, string shape, int howmany){
         for(int i = 0; i<howmany; i++){
             cout << "Enter the " << shapeParameter1 << " for " << shape << " "<< i+1 << ": "<< endl;
@@ -86,7 +89,7 @@ public:
             cin >> arrayY[i];
             cout << "Enter the " << shapeParameter3 << " for " << shape << " "<< i+1 << ": "<< endl;
             cin >> arrayZ[i];
-        }
+        }//end storeValuesXYZ
     }
 };
 
