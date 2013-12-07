@@ -1,5 +1,6 @@
 val pi = 3.14159: real;
 val radiusArray = Array.fromList[3.0,4.0];
+val squareArray = Array.fromList[3.0,4.0];
 val baseArray = Array.fromList[3.0, 4.0];
 val heightArray = Array.fromList[8.0,7.0];
 val side1 = Array.fromList[3.0,4.0];
@@ -14,6 +15,9 @@ fun area3(s:string,x:real,y:real,z:real):real = if s = "trapezoid" then 0.5*(x+y
 
 fun loop_circle(x:real array,y:int,z:int):string = if y<z then "PI*" ^ Real.toString(Array.sub(x,y)) ^ "^2=" 
 ^ Real.toString(pi*Array.sub(x,y)*Array.sub(x,y)) ^ "," ^ loop_circle(x,y+1,z) else "done!!";
+
+fun loop_square(x:real array, y:int, z:int):string = if y<z then Real.toString(Array.sub(x,y)) ^
+" * "  ^ Real.toString(Array.sub(x,y)) ^ "= " ^ Real.toString(Array.sub(x,y)*Array.sub(x,y)) ^ "," ^ loop_square(x,y+1,z) else "Done!!!";
 
 fun loop_triangle(x:real array,y:real array,a:int,b:int):string = if a<b then "1/2*" ^ 
 Real.toString(Array.sub(x,a)) ^ "*" ^ Real.toString(Array.sub(y,a)) ^ "=" ^ 
