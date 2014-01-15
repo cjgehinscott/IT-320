@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3E0BCF26-9DE8-480D-AE13-94671C68C4CF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SuperCard</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>72D6067B-0B48-4BE4-A472-CF7CAE18D3B3</key>
+		<string>https://github.com/cjgehinscott/IT-320.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MovieBeard/SuperCard/SuperCard.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>72D6067B-0B48-4BE4-A472-CF7CAE18D3B3</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/cjgehinscott/IT-320.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>72D6067B-0B48-4BE4-A472-CF7CAE18D3B3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>72D6067B-0B48-4BE4-A472-CF7CAE18D3B3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>IT-320</string>
+		</dict>
+	</array>
+</dict>
+</plist>
